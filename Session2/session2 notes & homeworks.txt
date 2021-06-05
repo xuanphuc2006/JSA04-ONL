@@ -1,0 +1,26 @@
+Các kiến thức cần ghi ôn lại và đọc thêm:
+ - Ôn lại cách link thư viện bootstrap vào trang HTML 
+ - Bootstrap Grid Layout (https://getbootstrap.com/docs/4.0/layout/grid/)
+ - Bootstrap class để thêm tắt margin, padding 
+ - Các bước để push code lên: 
+	git add .
+	git commit -m "commit message"
+	git push
+
+ - Lệnh để clone code:
+	git clone ... 
+
+
+Bài tập về nhà: 
+ - Hoàn thiện nốt phần main body(hint: chia cột như các phần trên) 
+   + footer của trang web EatClean(hint: làm tương tự navbar) 
+
+ - Cách thức nộp: Đẩy code lên github cá nhân
+ - Deadline: trước buổi học tiếp theo 12 tiếng 
+
+
+Link repository để tham khảo lại những gì đã học của giáo viên: 
+https://github.com/anhvuquang97/JSA04-ONL
+
+
+

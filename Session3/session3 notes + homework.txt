@@ -1,0 +1,58 @@
+- Kiểu dữ liệu (quan trọng)
+	Number
+	String
+	Boolean
+
+- Khai báo biến (quan trọng)
+	let 
+	const 
+
+- Toán tử (quan trọng)
+	số học
+	so sánh 
+	logic (&&, ||, !)
+	
+- Câu lệnh điều kiện 
+	if...else if...else (quan trọng)
+	switch...case
+
+- Vòng lặp
+	for loop (quan trọng)
+	do...while loop
+
+
+
+Link đọc ôn lại kiến thức 
+ - tham khảo trừ phần toán tử điều kiện 
+	https://xuanthulab.net/cac-toan-tu-trong-javascript.html
+ - đọc đến phần vòng lặp for 
+	https://xuanthulab.net/cau-lenh-dieu-kien-va-vong-lap-trong-javascript.html
+ - đọc đến phần giá trị trả về của hàm
+	https://xuanthulab.net/xay-dung-ham-trong-javascript-ham-an-danh-va-bieu-thuc-ham.html
+
+
+
+Bài tập về nhà:
+ 1. Viết một hàm checkLeapYear, tham số truyền vào là năm, kiểm tra xem năm đó có phải năm nhuận không, kết quả trả về là boolean 
+    
+    ví dụ checkLeapYear(2020) return true 
+          checkLeapYear(2015) return false
+
+ 2. Viết một hàm calculateSeasonPoints, tính số điểm của đội bóng, 3 tham số truyền vào là số trận thắng(win), hòa(draw) và thua(lose),
+    kết quả trả về là số điểm của đội bóng (biết 1 trận thắng = 3 điểm; 1 trận hóa = 1 điểm; 1 trận thua = 0 điểm)
+    
+    ví dụ calculateSeasonPoints(10,5,0) return 35
+
+ 3. Viêt một hàm convertMinutesToTimeString, có tham số truyền vào là số phút, kết quả trả về là một string có dạng "HH:MM"
+    
+    ví dụ convertMinutesToTimeString(50) sẽ return "00:50"
+	  convertMinutesToTimeString(60) sẽ return "01:00"
+	  convertMinutesToTimeString(75) sẽ return "01:15"
+ 
+ 4. Viêt một hàm checkTriangleType, có 3 tham số truyền vào là 3 cạnh tam giác, kết quả trả về là tam giác cân(isoceles triangle), 
+    tam giác đều(equilateral triangle) , tam giác thường(normal triangle) hay không phải tam giác(not a triangle) 
+
+   ví dụ checkTriangleType(4,5,6) return "normal triangle"
+         checkTriangleType(2,3,8) return "not a triangle"
+         checkTriangleType(5,5,5) return "equilateral triangle"
+         checkTriangleType(6,6,8) return "isoceles triangle" 

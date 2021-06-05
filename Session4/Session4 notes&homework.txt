@@ -1,0 +1,29 @@
+- Array 
+ tạo mảng: let arr = ['hello', 'world', 2, 3]
+ truy xuất theo index(bắt đầu đếm từ 0). ví dụ: arr[0] = 'hello', arr[2] = 2
+ đấy phần từ vào mảng: arr.push('new item') ~~> arr == ['hello', 'world', 2, 3, 'new item']
+ lấy độ dài của mảng: arr.length 
+ loop qua tất cả các phần từ mảng: for(let i=0; i<arr.length; i++){...}
+
+- Object
+ tạo object: let myObject = {
+		key: value
+	     }
+ truy xuất value: myObject.key 
+
+- JS String: thay thế một hoặc nhiều kí tự trong string dùng hàm replace 
+  ví dụ: let str = 'hello' 
+	 let newStr = str.replace('l', 'b') thì newStr = 'hebbo'
+
+ 
+- Bài tập về nhà: Hoàn thành SignUp Form app. Các em vào file index.js hoàn thành nốt. Ở mỗi
+ phần cần làm anh đều có comment rõ TODO. Các em hoàn thiện phần code bên dưới. 
+ Yêu cầu của form: phần password phải có ít nhất 8 kí tự, trong đấy ít nhất 1 kí tự là số
+		   phần password và confirm password phải trùng nhau 
+
+ Hint: độ dài của string: string.length. Ví dụ let str = 'hello' thì str.length = 5
+       để check 1 string có chứa một đoạn mong muốn hay không, ta có hàm includes:
+	let str = 'world' thì str.includes('wor') = true str.includes('h') = false 
+
+ Demo video của trang sign up khi hoàn thành: https://youtu.be/HseiNHSTBZM
+ Link tải code ban đầu: https://drive.google.com/file/d/1ImqfwZ9v-jMcBKoj70A1h2GpJi8tYoF4/view?usp=sharing
